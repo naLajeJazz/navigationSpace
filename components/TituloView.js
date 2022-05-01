@@ -24,6 +24,6 @@ const Estilo = StyleSheet.create({
     alignItems:'center'
   },
   fs_5:{
-fontSize:50
+fontSize:30
   }
 })

@@ -10,7 +10,7 @@ export default () => {
   return (
     <Fragment>
 
-      <TituloView corFundo="#010D26" corTexto="#084DA6" position="flex-start">
+      <TituloView corFundo="#010D26" corTexto="#397373" position="flex-start">
           General status
       </TituloView>  
 

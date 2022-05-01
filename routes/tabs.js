@@ -5,7 +5,7 @@ import Tela3 from '../Screen/Tela3';
 import { MaterialCommunityIcons, Entypo,FontAwesome5 } from '@expo/vector-icons';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
-export default props=>{
+export default (                                                                                                                                                                                                                                                                                                              )=>{
 
 const Tabs=createBottomTabNavigator();
 
@@ -13,16 +13,21 @@ return(
 
 <Tabs.Navigator 
         initialRouteName='Tela1'
-        screenOptions={{headerShown:false}}
-        tabBarOptions={{activeTintColor:'red',inactiveTintColor:'blue',
+        screenOptions={{
+              headerShown:false,
+              tabBarStyle: { backgroundColor: '#010D26' },
+            
+            }}
+        tabBarOptions={{activeTintColor:'#11468C',inactiveTintColor:'#397373',
+       
         
         labelStyle:{
          
         fontSize:20 
                     },
                     
-                    showLabel:false
-                    }} 
+                    showLabel:false 
+                    }}                                                                                                                                                              
                      >
 
   <Tabs.Screen 
