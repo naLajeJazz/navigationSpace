@@ -8,8 +8,8 @@ export default props => {
 
 <Fragment>
 
-    <TituloView corFundo='#021D40'>
-     Contato
+    <TituloView corFundo='#010D26' corTexto="#084DA6">
+     Computer
     </TituloView>
 
     

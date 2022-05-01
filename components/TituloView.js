@@ -5,7 +5,7 @@ export default props => {
 
 return(
   
-<View style={[Estilo.container,{backgroundColor:props.corFundo || '#000'}]}>
+<View style={[Estilo.container,{backgroundColor:props.corFundo || '#000',justifyContent:props.position}]}>
 
    <Text style={[Estilo.fs_5,{color:props.corTexto ||'#fff'}]}>
    { props.children }
