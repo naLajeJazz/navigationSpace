@@ -12,12 +12,16 @@ export default () => {
 
   return (
 
-   
+   <Fragment>
 
    
+
+ 
 
 <Map/>
 
 
+
+</Fragment>
   )
 }

@@ -76,7 +76,7 @@ flex:1,
 color:"white",
 
 textAlign:"center",
-fontSize:32,
+fontSize:64,
 
 
 },
