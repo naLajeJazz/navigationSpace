@@ -1,5 +1,4 @@
 import React,{Fragment} from 'react';
-import Componente from './Componente';
 import TituloView from './TituloView';
 import Caixa from './Caixa'
 import Estilo from '../FolhaEstilo/FolhaEstilo'
@@ -10,9 +9,9 @@ export default () => {
 
 <Fragment style={Estilo.container}>
 
-<TituloView corFundo="#010D26" corTexto="#05F2F2" position="flex-start">
+    <TituloView corFundo="#010D26" corTexto="#05F2F2" position="flex-start">
           Ship Computer
-      </TituloView>
+    </TituloView>
 
 <View style={Estilo.borda}>
 

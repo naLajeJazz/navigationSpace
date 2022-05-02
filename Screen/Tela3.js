@@ -1,8 +1,7 @@
 import React, {Fragment}from 'react'
-import TituloView from '../components/TituloView'
-import Tabuleiro from '../components/Tabuleiro'
+import Computador from '../components/Computador'
+import Cpu from '../components/Cpu/components/Cpu'
 import Estilo from '../FolhaEstilo/FolhaEstilo'
-import Button from '../components/Button'
 import { View } from 'react-native-web'
 
 export default () => {
@@ -12,8 +11,8 @@ export default () => {
 <Fragment>
 <View style={[Estilo.container3,Estilo.borda]}>
 
+<Cpu/>
 
-    <Tabuleiro/>
 </View>
 </Fragment> 
 

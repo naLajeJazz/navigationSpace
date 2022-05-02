@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
+import {Text} from 'react-native'
 import TituloView from '../components/TituloView';
-import Tripulante from '../components/Tripulante/components/Tripulante';
-import DiaHoras from '../components/Tripulante/components/DiaHoras'
+import Computador from '../components/Computador';
 import Button from '../components/Button';
 
 export default () => {
@@ -13,15 +13,11 @@ export default () => {
 
       <TituloView corFundo="#010D26" corTexto="#05F2F2" position="flex-start">
           General status
+
+
       </TituloView>  
-<TituloView>
-
-<DiaHoras/>
-</TituloView>
-     <TituloView>
-<Tripulante/>
-
-     </TituloView>
+     
+<Computador/>
       
     </Fragment>
   );
