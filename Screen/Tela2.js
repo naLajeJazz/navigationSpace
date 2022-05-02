@@ -1,20 +1,23 @@
 import React, {Fragment}from 'react'
+import Map from '../components/Map'
 import TituloView from '../components/TituloView'
+import CaixaMap from '../components/CaixaMap'
+import DisplayView from '../components/DisplayView'
+import { View } from 'react-native'
 import Button from '../components/Button'
+import Estilo from '../FolhaEstilo/FolhaEstilo'
 
-export default props => {
+
+export default () => {
 
   return (
 
-<Fragment>
+   
 
-    <TituloView corFundo='#010D26' corTexto="#397373">
-     Navigation Map
-    </TituloView>
+   
 
-    
+<Map/>
 
-</Fragment>
 
   )
 }

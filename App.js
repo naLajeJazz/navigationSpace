@@ -6,7 +6,7 @@ import Tabs from './routes/tabs'
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 
-export default props=>{
+export default ()=>{
 
 
 

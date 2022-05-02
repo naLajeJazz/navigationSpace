@@ -8,7 +8,19 @@ container:{
   backgroundColor:'#0D0D0D',
   alignItems:'center',
   justifyContent:'center',
-  padding:60,
+  
+  
+ 
+ 
+},
+
+container3:{
+  flexGrow:1,
+  backgroundColor:'#010D26',
+  
+  
+  
+  
  
  
 },
@@ -18,34 +30,54 @@ containerTxt:{
   backgroundColor:'#0D0D0D',
   justifyContent:'center',
   flexDirection:'row',
-  padding:6,
+  padding:30,
 
  
 },
 container2:{
   flexGrow:1,
   backgroundColor:'#0D0D0D',
-  alignItems:'flex-start',
-  alignContent:'stretch',
+  alignItems:'center',
+ 
   justifyContent:'space-between',
   flexDirection:'row',
-  padding:10,
+  padding:20,
+
+ 
+},
+containerMapa:{
+  flexGrow:1,
+  backgroundColor:'#11468C',
+  alignItems:'center',
+ 
+  justifyContent:'space-between',
+  flexDirection:'row',
+  padding:20,
 
  
 },
 borda:{
-border:'1px solid red'
+border:'1px solid #397373'
 },
 txt:{
-  fontSize:32,
-  color:'#0FBFBF',
-  marginVertical:1,
+  fontSize:18,
+  color:'#05F2F2',
+  
 
 },
 caixa:{
 width:64,
 height:64,
-backgroundColor:'red',
+backgroundColor:'#05F2F2',
+
+},
+caixa2:{
+flex:1,
+color:"white",
+
+textAlign:"center",
+fontSize:32,
+
 
 },
 
