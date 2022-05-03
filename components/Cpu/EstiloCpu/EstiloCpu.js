@@ -4,12 +4,15 @@ const Estilo=StyleSheet.create({
 
 
 container:{
-  flexGrow:1,
-  backgroundColor:'#0D0D0D',
-  alignItems:'center',
-  justifyContent:'center',
-  padding:60,
- 
+flexGrow:1,
+backgroundColor:'#0D0D0D',
+justifyContent:'center',
+alignItems:'center',
+flexDirection:'row',
+paddingTop:20,
+paddingBottom:20,
+
+
  
 },
 containerTxt:{
@@ -34,18 +37,21 @@ container2:{
  
 },
 borda:{
-border:'1px solid red'
+border:'1px solid #4BF2D4'
 },
 txt:{
   fontSize:32,
-  color:'#0FBFBF',
-  marginVertical:1,
+  color:'red',
+  textAlign:'center',
 
 },
 caixa:{
-width:64,
-height:64,
-backgroundColor:'red',
+  flexGrow:1,
+width:62,
+height:62,
+textAlign:'center',
+
+
 
 },
 

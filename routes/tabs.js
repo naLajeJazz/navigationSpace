@@ -13,7 +13,7 @@ const Tabs=createBottomTabNavigator();
 return(
 
 <Tabs.Navigator 
-        initialRouteName='Tela2'
+        initialRouteName='Tela3'
             screenOptions={{
             headerShown:false,
             tabBarStyle: { backgroundColor: '#010D26'}}}
