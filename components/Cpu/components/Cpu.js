@@ -2,12 +2,13 @@ import React,{Fragment} from 'react';
 import Componente from './Componente';
 import Caixa from './Caixa'
 import Estilo from '../EstiloCpu/EstiloCpu';
-import { View, TouchableOpacity } from 'react-native';
+import { View } from 'react-native';
+
 
 export default () => {
   return (
 
-<Fragment style={Estilo.container}>
+<Fragment >
 
 
     <View style={[Estilo.container,Estilo.borda]}>

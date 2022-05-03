@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {Text,View} from 'react-native'
 import Estilo from '../EstiloCpu/EstiloCpu';
 
-export default props =>{
+export default ()=>{
 
 const [dados,setDados]=useState('um dado')
 

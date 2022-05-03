@@ -1,28 +1,30 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import TituloView from '../components/TituloView';
 import Tripulante from '../components/Tripulante/components/Tripulante';
-import DiaHoras from '../components/Tripulante/components/DiaHoras'
-import Button from '../components/Button';
+import DiaHoras from '../components/Tripulante/components/DiaHoras';
+import { View } from 'react-native';
+import Estilo from '../components/Cpu/EstiloCpu/EstiloCpu';
+
 
 export default () => {
  
   ////props.navigation.navigate('Tela1'); 
 
   return (
-    <Fragment>
+   
 
-      <TituloView corFundo="#010D26" corTexto="#05F2F2" position="flex-start">
-          General status
-      </TituloView>  
-<TituloView>
+      <View style={Estilo.container}>
+
+      
 
 <DiaHoras/>
-</TituloView>
-     <TituloView>
+
+
+
 <Tripulante/>
 
-     </TituloView>
       
-    </Fragment>
+      
+     </View>
   );
 };

@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import {Text,View,TouchableOpacity} from 'react-native'
+import React,{Fragment} from 'react';
+import {View,TouchableOpacity} from 'react-native'
 import Estilo from '../EstiloCpu/EstiloCpu';
 
 export default () =>{
@@ -8,7 +8,6 @@ export default () =>{
 
 return(
 <TouchableOpacity>
-
 <View style={Estilo.caixa}></View>
 </TouchableOpacity>
   )
